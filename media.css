@@ -1,0 +1,22 @@
+@media(max-width:1400px){
+    .items{
+        display: none;
+    }
+}
+@media(max-width:400px){
+    .icon {
+        font-size: 1rem;
+      }
+      .navimg > img {
+        width: 100%;
+      }
+      .menuicon {
+      font-size: 2rem;
+    }
+    .menu > h1 {
+      font-size: 2rem;
+    }
+    ul > li {
+        font-size: 1rem;
+      }
+}

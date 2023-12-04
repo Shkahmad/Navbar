@@ -1,0 +1,123 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+    height: 200vh;
+    background-position: center;
+    background-position: fixed;
+  background-image: url(img/ai-generated-8414534_1280.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  overflow: hidden;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.navimg > img {
+  width: 120%;
+}
+.items > ul {
+  display: flex;
+}
+.items > ul > li {
+  list-style: none;
+  /* margin: 1rem; */
+}
+.items > ul > li > a {
+  font-size: 1.3rem;
+  padding: 2rem;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+  border: none;
+}
+.items > ul > li > a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 2px;
+  top: 80%;
+  width: 100%;
+  left: 0;
+  background-color: #fff;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  transform: scale(0);
+}
+.items > ul > li > a:hover::after {
+  transform: scale(0.5);
+}
+.icon {
+  color: #fff;
+  font-size: 2rem;
+  padding: 20px;
+}
+.modal-body > input {
+  width: 100%;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  padding: 10px 10px;
+}
+form input {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+  padding: 5px;
+  margin: 10px 5px;
+}
+form > h1 {
+  color: rgba(0, 0, 0, 0.514);
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+form > h1 > span {
+  cursor: pointer;
+  color: black;
+}
+.menu {
+  margin-top: 30px;
+  background-color: #4c4c4c;
+}
+.menuicon {
+    cursor: pointer;
+  background-color: black;
+  padding: 0 10px;
+  margin: 0 10px;
+  padding-top: 5px;
+  font-size: 3rem;
+  color: #fff;
+}
+.menu > h1 {
+    padding: 10px;
+    margin-top: -10px;
+    color: #fff;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: end;
+}
+ul > li {
+  color: #fff;
+  font-size: 2rem;
+  list-style: none;
+}
+.navb{
+    display: none;
+    padding-bottom: 20px;
+}
+.pages{
+    cursor: pointer;
+}
+
+.g_1{
+    display: none;
+}
